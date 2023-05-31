@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
           }
 
         //se cambia el src de la imagen
-        imagen.src = "../img/logo-negro.png";
+        imagen.src = "../img/adolfo.gif";
     } else {
 
         // En el else se remove los valores agregados
@@ -27,6 +27,6 @@ window.addEventListener('scroll', function() {
             colorLetras[i].classList.remove('cambiar');
           }
         
-        imagen.src = "../img/logo-blanco.png";
+        imagen.src = "../img/adolfo.gif";
     }
   });

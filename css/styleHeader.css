@@ -16,6 +16,7 @@ ul {
   height: 100px;
   display: flex;
   transition: .5s;
+
 }
 
 /*Se cambian a estas propiadades al hacer scroll*/
@@ -51,7 +52,14 @@ ul {
   text-decoration: none;
   font: 16px Muli, sans-serif;
   color: rgb(249, 249, 249);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
 }
+.aColorS1:hover{
+  background-color: rgb(12, 90, 219);
+}
+
 
 /*Se cambian a estas propiedades el tag a al hacer scroll*/
 .aColorS1.cambiar {
@@ -85,6 +93,9 @@ ul {
 /*Formato de la imagen logo*/
 #logoS1 img {
   float: left;
+  width: 156px;
+  height: 32px;
+  cursor: pointer;
 }
 
 
